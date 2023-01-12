@@ -15,8 +15,8 @@ export default class TileMap {
 		this.wall = new Image();
 		this.wall.src = 'images/wall.png';
 
-		this.iLoveLviv = new Image();
-		this.iLoveLviv.src = '../images/i_love_lviv.png';
+// 		this.iLoveLviv = new Image();
+// 		this.iLoveLviv.src = '../images/i_love_lviv.png';
 
 		this.powerDot = this.pinkDot;
 		this.powerDotAnmationTimerDefault = 30;
@@ -57,7 +57,7 @@ export default class TileMap {
 					this.#drawBlank(ctx, column, row, this.tileSize);
 				}
 
-				ctx.drawImage(this.iLoveLviv, this.tileSize * 3, this.tileSize * 2);
+// 				ctx.drawImage(this.iLoveLviv, this.tileSize * 3, this.tileSize * 2);
 
 				// ctx.strokeStyle = "yellow";
 				// ctx.strokeRect(
